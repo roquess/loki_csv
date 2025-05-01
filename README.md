@@ -135,17 +135,6 @@ end.
 - Leveraging Erlang's built-in binary handling
 - Efficiently handling large files with streaming operations
 
-## Benchmarks
-
-| Operation | File Size | Rows | Time (ms) |
-|-----------|-----------|------|-----------|
-| Parse     | 1MB       | 10K  | 47        |
-| Parse     | 10MB      | 100K | 452       |
-| Write     | 1MB       | 10K  | 39        |
-| Write     | 10MB      | 100K | 376       |
-
-*Note: Benchmarks performed on an Intel i7-9700K @ 3.6GHz with 32GB RAM.*
-
 ## Running Tests
 
 ```bash
@@ -155,12 +144,6 @@ rebar3 eunit
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
