@@ -1,0 +1,14 @@
+{application, loki_csv,
+ [{description, "A fast and lightweight CSV parser and writer for Erlang"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {loki_csv_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
