@@ -6,10 +6,6 @@
 
 A lightweight and high-performance CSV parser and writer for Erlang/OTP.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/username/loki_csv/main/logo.png" alt="loki_csv logo" width="300">
-</p>
-
 ## Overview
 
 `loki_csv` is a fast and memory-efficient CSV processing library for Erlang applications. It's designed to handle both standard CSV files and custom formats with flexible configuration options.
